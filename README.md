@@ -40,6 +40,30 @@ The objective is to align internal strategy with external market reality by answ
 - **Sector structure is uneven:** High-density sectors are not always the highest-survival sectors; crowding and survivability can diverge.
 - **Outcome asymmetry is actionable:** `closed` versus active/success outcomes provides a robust binary market signal for risk-tiering and strategic allocation.
 
+## Dashboard PNG Explanations
+
+This project currently includes **2 dashboard PNG files**:
+
+### 1) `mission_l01_real_data_dashboard.png`
+This image is a high-level financial sustainability dashboard across **66,368 startups**. It summarizes:
+- Funding runway distribution by funding category
+- Success score by company outcome (`ipo`, `acquired`, `operating`, `closed`)
+- Top-country success score comparison
+- Relationship between funding rounds and average success
+- Company age distribution and median age marker
+- Outcome probability composition by funding band
+- Risk distribution (low/medium/high/failed)
+- Scenario projection of success score for additional funding rounds
+
+### 2) `mission_l01_sector_analysis.png`
+This image is a sector-focused survival and performance dashboard. It summarizes:
+- Sector success ranking (top sectors by average success score)
+- IPO rate comparison by sector
+- Funding vs success scatter sample (with funding rounds as color context)
+- Survival curve by company age
+
+Together, these two PNGs provide a complementary view: one for broad financial sustainability and one for sector-level survival intelligence.
+
 ## Outputs
 - Main sector/survival visual report: `mission_l01_sector_analysis.png`
 - Additional dashboard artifact: `mission_l01_real_data_dashboard.png`
